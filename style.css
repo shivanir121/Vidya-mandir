@@ -1,0 +1,299 @@
+/* brand color */
+
+:root {
+  --blue: #007bff;
+}
+
+/* fonts used  */
+
+@font-face {
+  font-family: Lblack;
+  src: url(font/lato/black.ttf)
+}
+
+@font-face {
+  font-family: Lbold;
+  src: url(font/lato/Bold.ttf)
+}
+
+@font-face {
+  font-family: regular;
+  src: url(font/lato/Regular.ttf)
+}
+
+.black {
+  font-family: Lblack;
+}
+
+.bold {
+  font-family: Lbold;
+}
+
+.regular {
+  font-family: regular;
+}
+
+/* global  */
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* navigation  */
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.navfont {
+  font-size: 17px;
+  margin-right: 40px;
+}
+
+/* hero section  */
+
+#hero {
+  width: 100%;
+  height: auto;
+  /* margin-top: 5rem; */
+}
+
+/* news section/temporary  */
+
+#news {
+  margin-top: 43px;
+  margin-bottom: 50px;
+}
+
+#tempo {
+  color: #de4c4c;
+  font-size: 18px;
+}
+
+/* Affliate */
+
+#affliate {
+  margin-bottom: 84px;
+}
+
+.affliateHeading {
+  font-size: 30px;
+}
+
+/* member count section */
+
+#member {
+  background: url(images/member/backgroundGrad.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 36vh;
+}
+
+.firstCol, .secondCol, .thirdCol {
+  font-size: 36px;
+  color: white;
+  padding-top: 5rem;
+}
+
+/* about Section  */
+
+#about {
+  margin-top: 120px;
+  margin-bottom: 120px;
+  position: relative;
+}
+
+.mainAboutHeading {
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+
+.aboutContent {
+  font-size: 21px;
+  margin-top: 77px;
+}
+
+.firstAboutRow, .secondAboutRow, .thirdAboutRow, .fourthAboutRow {
+  margin-bottom: 77px;
+}
+
+.aboutHeading {
+  margin-top: 40px;
+  margin-bottom: 65px;
+  font-size: 36px;
+}
+
+/* feature */
+
+#feature, #achievement, #gallery {
+  margin-bottom: 120px;
+}
+
+.featureHeading, .achievementHeading, .galleryHeading {
+  font-size: 36px;
+  margin-bottom: 77px;
+}
+
+.featureImg {
+  margin: 14px 0px;
+}
+
+/* achievement  */
+
+.achievementContent {
+  font-size: 21px;
+  margin-top: 2rem;
+}
+
+.container1 {
+  width: 60%;
+  height: auto;
+  margin: auto;
+}
+
+/* gallery  */
+
+.galleryBtn {
+  margin-top: 2rem;
+}
+
+/* footer  */
+
+.footerLink {
+  font-size: 21px;
+  color: black;
+  text-decoration: none;
+  line-height: 1.7em;
+}
+
+.footerLink:hover {
+  font-size: 21px;
+  color: black;
+  text-decoration: none;
+}
+
+h4 {
+  font-size: 21px;
+}
+
+/* utilities  */
+
+.outlineBtn {
+  position: relative;
+  border-radius: 27px;
+  color: #37b896;
+  width: 230px;
+  height: 54px;
+  font-size: 21px;
+  left: 30vw;
+}
+
+.filledBtn {
+  position: relative;
+  border-radius: 27px;
+  background-color: #37b896;
+  color: white;
+  width: 230px;
+  height: 54px;
+  font-size: 21px;
+  left: 23vw;
+  margin-top: 2rem;
+}
+
+.filledBtn:hover {
+  background-color: white;
+  color: #37b896;
+  margin-top: 2rem;
+}
+
+/* media query */
+
+/* mobile version  */
+
+@media screen and (max-width: 900px) {
+  #hero {
+    width: 100%;
+    height: auto;
+    margin-top: 5rem;
+  }
+  .logo {
+    width: 60px;
+    height: 60px;
+  }
+  .affliateHeading {
+    font-size: 20px;
+  }
+  .firstCol, .secondCol, .thirdCol {
+    font-size: 26px;
+    color: white;
+  }
+  #about {
+    margin-top: 60px;
+    position: relative;
+    margin-bottom: 0px;
+  }
+  .mainAboutHeading {
+    font-size: 26px;
+    margin-bottom: 25px;
+  }
+  .aboutContent {
+    font-size: 16px;
+    margin-top: 0px;
+  }
+  .firstAboutRow, .secondAboutRow, .thirdAboutRow {
+    margin-bottom: 67px;
+  }
+  .aboutHeading {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 26px;
+  }
+  .outlineBtn {
+    position: relative;
+    border-radius: 27px;
+    color: #37b896;
+    width: 180px;
+    height: 44px;
+    font-size: 11px;
+    left: 30vw;
+  }
+  .container1 {
+    width: 80%;
+    height: auto;
+    margin: auto;
+  }
+  .filledBtn {
+    position: relative;
+    border-radius: 27px;
+    background-color: #37b896;
+    color: white;
+    width: 180px;
+    height: 44px;
+    font-size: 14px;
+    left: 24vw;
+    margin-top: 2rem;
+  }
+  .firstImgOfGallery {
+    margin-bottom: 2rem;
+  }
+}
