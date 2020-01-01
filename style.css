@@ -130,7 +130,7 @@ body {
 
 .aboutContent {
   font-size: 21px;
-  margin-top: 77px;
+  /* margin-top: 77px; */
 }
 
 .firstAboutRow, .secondAboutRow, .thirdAboutRow, .fourthAboutRow {
@@ -192,6 +192,12 @@ body {
   text-decoration: none;
 }
 
+.copyright {
+  color: white;
+  background-color: black;
+  padding: 2rem;
+}
+
 h4 {
   font-size: 21px;
 }
@@ -205,7 +211,7 @@ h4 {
   width: 230px;
   height: 54px;
   font-size: 21px;
-  left: 30vw;
+  left: 28vw;
 }
 
 .filledBtn {
@@ -244,7 +250,7 @@ h4 {
     font-size: 20px;
   }
   .firstCol, .secondCol, .thirdCol {
-    font-size: 26px;
+    font-size: 18px;
     color: white;
   }
   #about {
@@ -261,7 +267,13 @@ h4 {
     margin-top: 0px;
   }
   .firstAboutRow, .secondAboutRow, .thirdAboutRow {
-    margin-bottom: 67px;
+    margin-bottom: 24px;
+  }
+  .achievementHeading, .galleryHeading {
+    margin-bottom: 40px;
+  }
+  #feature, #achievement, #gallery {
+    margin-bottom: 40px;
   }
   .aboutHeading {
     margin-top: 30px;
@@ -275,7 +287,7 @@ h4 {
     width: 180px;
     height: 44px;
     font-size: 11px;
-    left: 30vw;
+    left: 20vw;
   }
   .container1 {
     width: 80%;
@@ -290,10 +302,62 @@ h4 {
     width: 180px;
     height: 44px;
     font-size: 14px;
-    left: 24vw;
+    left: 20vw;
     margin-top: 2rem;
   }
   .firstImgOfGallery {
     margin-bottom: 2rem;
   }
+}
+
+/* style for about(html) */
+
+.aboutHeadingPage {
+  margin-bottom: 40px;
+}
+
+.aboutcontentLink {
+  font-size: 21px;
+}
+
+/* style for admisssion.html */
+
+#admission {
+  margin-top: 10rem;
+}
+
+#enrollment {
+  margin: 2rem 0;
+}
+
+.enrollmentContent {
+  font-size: 18px;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+}
+
+.admissionHeading, .schoolUniformHeading, .rulesHeading, .enrollmentHeading {
+  font-size: 21px;
+}
+
+.admissionSubHeading {
+  font-size: 52px;
+}
+
+.updates {
+  color: #de4c4c;
+}
+
+.schoolUniformHeading {
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+}
+
+.uniformCardRowOne, .uniformCardRowTwo {
+  margin-bottom: 2rem;
+  box-shadow: 5px 5px 17px 0px #d4cfcf;
+}
+
+.rulesHeading, .enrollmentHeading {
+  margin-bottom: 2rem;
 }
