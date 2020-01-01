@@ -144,7 +144,10 @@ body {
 }
 
 /* feature */
-
+#feature
+{
+  margin-top: 7rem;
+}
 #feature, #achievement, #gallery {
   margin-bottom: 120px;
 }
