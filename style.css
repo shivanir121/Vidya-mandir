@@ -106,7 +106,7 @@ body {
   background: url(images/member/backgroundGrad.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 36vh;
+  height: 38vh;
 }
 
 .firstCol, .secondCol, .thirdCol {
@@ -256,6 +256,11 @@ h4 {
   .affliateHeading {
     font-size: 20px;
   }
+  
+  #member {
+  height: 30vh;
+}
+  
   .firstCol, .secondCol, .thirdCol {
     font-size: 18px;
     color: white;
