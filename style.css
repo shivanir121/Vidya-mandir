@@ -161,7 +161,7 @@ body {
 .featureImg {
     margin: 14px 0px;
     transition: width 2s;
-    border: 1px #c7c7c7 solid;
+    box-shadow: 3px 3px 12px 0px #cccccc;
     border-radius: 21px;
 }
 
