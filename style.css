@@ -160,7 +160,7 @@ body {
 
 .featureImg {
     margin: 14px 0px;
-    transition: width 2s;
+   
     box-shadow: 3px 3px 12px 0px #cccccc;
     border-radius: 21px;
 }
@@ -169,7 +169,7 @@ body {
 {
     border-radius: 26px;
     box-shadow: 3px 3px 12px 0px #cccccc;
-    width: 212px;
+   
 }
 
 /* achievement  */
