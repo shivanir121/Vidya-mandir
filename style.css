@@ -159,7 +159,15 @@ body {
 }
 
 .featureImg {
-  margin: 14px 0px;
+    margin: 14px 0px;
+    transition: width 2s;
+}
+
+.featureImg:hover
+{
+    border-radius: 26px;
+    box-shadow: 3px 3px 12px 0px #cccccc;
+    width: 220px;
 }
 
 /* achievement  */
