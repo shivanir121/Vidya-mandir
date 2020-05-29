@@ -398,6 +398,19 @@ h4 {
 
 
 
+#Result1 {
+ /* margin-top: 180px; 
+  margin-bottom: 300px;
+  position: relative; */
+}
+filledBtn {
+    position: relative;
+  
+    width: 560px;
+    height: 44px;
+    
+    margin-top: 2rem;
+  }
 #Result {
   margin-top: 180px; 
   margin-bottom: 300px;
