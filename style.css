@@ -74,7 +74,8 @@ body {
 
 #hero {
   width: 100%;
-  height: auto;
+ /* height: auto; */
+  height:590px;
   /* margin-top: 5rem; */
 }
 
