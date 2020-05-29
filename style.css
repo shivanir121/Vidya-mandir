@@ -406,9 +406,9 @@ h4 {
 filledBtn {
     position: relative;
   
-    width: 570px;
+    width: auto;
     height: 44px;
-    
+    font-size: 18px;
     margin-top: 2rem;
   }
 #Result {
@@ -429,9 +429,9 @@ filledBtn {
 .filledBtn {
     position: relative;
   
-    width: 480px;
+    width: auto;
     height: 44px;
-    
+    font-size: 18px;
     margin-top: 2rem;
   }
 
